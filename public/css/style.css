@@ -36,9 +36,20 @@ img {
 	outline:0;
 	vertical-align:top;
 	border:0;
-	max-width:100.1%;
+	max-width:100%;
 	height:auto;
 }
+
+img.logo {
+	margin-left: auto;
+  margin-right: auto;
+  outline:0;
+	vertical-align:top;
+	border:0;
+	max-width:100%;
+	height:auto;
+}
+
 a {
 	color:#505050;
 	transition: all 0.3s ease-in-out;
@@ -254,7 +265,7 @@ section {padding-bottom: 70px;
 
 /* __________ Logo __________ */
 .logo {
-	padding:27px 0 39px;
+	padding:10px 0 15px;
 	text-align:center;
 }
 .logo a {display:inline-block;}
